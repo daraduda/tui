@@ -7,11 +7,16 @@
   "dependencies": {
     "d3-scale": "^3.0.0",
     "formik": "^1.0.2",
+    "husky": "^9.0.9",
+    "lint-staged": "^15.2.1",
+    "node-sass-chokidar": "^2.0.0",
+    "prettier": "^3.2.4",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-c3js": "^0.1.20",
     "react-dom": "^16.4.2",
     "react-google-maps": "^9.4.5",
+    "react-router": "^6.21.3",
     "react-router-dom": "^5.0.0",
     "react-scripts": "^2.0.3",
     "react-simple-maps": "^0.12.0",
@@ -20,9 +25,9 @@
     "tabler-react": "link:.."
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "watch": "react-scripts start --watch",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

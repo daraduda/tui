@@ -1,4 +1,4 @@
-# Update - June 2019: Version 2
+# Update - 01.02.2024: Version 2.1.0
 
 Alpha now available on NPM:
 
